@@ -1,0 +1,79 @@
+Create a high-end, minimal, luxury personal website for a top-level business executive.
+
+Name: Lovkesh Srivastava
+Profession: Hotelier | Consultant | COO | Former CEO
+
+Design style:
+
+* Ultra minimal, luxury aesthetic (inspired by top CEO personal websites)
+* Color scheme: deep black / charcoal background with subtle gold accents (like premium hospitality brands)
+* Typography-focused design (serif for headings, clean sans-serif for body)
+* Lots of whitespace, perfectly aligned grid system
+* Smooth, subtle animations (fade, slide, no flashy effects)
+* Responsive and mobile-first
+
+Tone:
+
+* Sophisticated, powerful, understated (NOT flashy or startup-like)
+* Feels like a premium hospitality group or global consultant
+
+Sections to include:
+
+1. HERO SECTION:
+
+* Large elegant typography: “Lovkesh Srivastava”
+* Subtitle: “Hotelier. Consultant. COO.”
+* One-line positioning statement: “Building and scaling hospitality ventures with strategic precision.”
+* Subtle animation on load
+
+2. ABOUT SECTION:
+
+* Short, powerful bio (executive tone)
+* Focus on leadership, experience, and credibility
+* Clean two-column layout
+
+3. EXPERIENCE / CREDENTIALS:
+
+* Roles: CEO, COO, Consultant
+* Timeline or structured cards
+* Keep it minimal, no clutter
+
+4. EXPERTISE:
+
+* Hospitality Strategy
+* Business Consulting
+* Operations & Scaling
+* Brand Development
+
+5. TESTIMONIALS / TRUST (optional but premium feel):
+
+* Minimal quote cards
+* No overdesign
+
+6. CONTACT / CTA:
+
+* “Work With Me” section
+* Simple form or email CTA
+* Very clean layout
+
+7. FOOTER:
+
+* Minimal, elegant
+* Name + subtle copyright
+
+Design rules:
+
+* No gradients, no bright colors
+* No unnecessary icons or illustrations
+* Everything should feel intentional and premium
+* Spacing and typography should do most of the work
+
+Technical:
+
+* Use modern HTML, CSS (Tailwind preferred), and simple JS
+* Fast loading and clean code
+* Smooth scrolling
+* Subtle hover effects
+
+Goal:
+Make it feel like a ₹5 lakh luxury personal brand website built by a top design agency.
