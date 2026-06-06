@@ -54,12 +54,12 @@ export default defineConfig({
       : []),
   ],
   resolve: {
-    alias: {
-      "@": path.resolve(import.meta.dirname, "src"),
-      "@assets": path.resolve(import.meta.dirname, "..", "..", "attached_assets"),
-    },
-    dedupe: ["react", "react-dom"],
+  alias: {
+    "@": path.resolve(import.meta.dirname, "src"),
+    "@assets": path.resolve(import.meta.dirname, "src", "assets"),
   },
+  dedupe: ["react", "react-dom"],
+},
   root: path.resolve(import.meta.dirname),
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
