@@ -562,12 +562,10 @@ export default function Home() {
         >
           <motion.p variants={FADE_UP} className="text-xs tracking-[0.3em] uppercase text-primary/70">Get in touch</motion.p>
           <motion.h2 variants={FADE_UP} className="font-serif text-4xl md:text-6xl text-foreground leading-tight">
-            Need Help.<br />Let's talk.
+            Have Land.<br />Let's talk.
           </motion.h2>
           <motion.div variants={FADE_UP} className="w-8 h-px bg-primary/60 mx-auto" />
-          <motion.p variants={FADE_UP} className="text-muted-foreground/60 text-base font-light leading-relaxed">
-            I take on a small number of advisory engagements at a time.<br className="hidden md:block" />
-            If the fit is right, I'll tell you quickly.
+         
           </motion.p>
           <motion.div variants={FADE_UP} className="pt-6">
             {email ? (
@@ -583,6 +581,29 @@ export default function Home() {
               <div className="inline-block border border-primary/20 px-14 py-5 text-muted-foreground/30 text-xs tracking-widest">Loading…</div>
             )}
           </motion.div>
+        </motion.div>
+
+<div className="flex justify-center gap-6 pt-8">
+  <a
+    href="https://www.linkedin.com/in/lovkesh-srivastava-a11659b/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn"
+    className="text-muted-foreground/30 hover:text-primary/70 transition-colors duration-300"
+  >
+  </a>
+
+  <a
+    href="https://www.instagram.com/journeywithlovkesh/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+    className="text-muted-foreground/30 hover:text-primary/70 transition-colors duration-300"
+  >
+  </a>
+</div>
+
+</motion.div>
         </motion.div>
       </section>
 
