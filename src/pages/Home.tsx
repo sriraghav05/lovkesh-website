@@ -581,7 +581,7 @@ export default function Home() {
             )}
         </motion.div>
 
-<div className="flex justify-center gap-6 pt-8">
+<div className="flex justify-center gap-4 pt-8">
   <a
     href="https://www.linkedin.com/in/lovkesh-srivastava-a11659b/"
     target="_blank"
