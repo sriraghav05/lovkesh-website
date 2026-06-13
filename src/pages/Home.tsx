@@ -566,7 +566,6 @@ export default function Home() {
           </motion.h2>
           <motion.div variants={FADE_UP} className="w-8 h-px bg-primary/60 mx-auto" />
          
-          </motion.p>
           <motion.div variants={FADE_UP} className="pt-6">
             {email ? (
               <a
@@ -580,7 +579,6 @@ export default function Home() {
             ) : (
               <div className="inline-block border border-primary/20 px-14 py-5 text-muted-foreground/30 text-xs tracking-widest">Loading…</div>
             )}
-          </motion.div>
         </motion.div>
 
 <div className="flex justify-center gap-6 pt-8">
@@ -603,8 +601,7 @@ export default function Home() {
   </a>
 </div>
 
-</motion.div>
-        </motion.div>
+      </motion.div>
       </section>
 
       {/* Footer */}
@@ -614,31 +611,7 @@ export default function Home() {
           <p className="text-xs tracking-widest text-muted-foreground/30 uppercase">
             &copy; {new Date().getFullYear()} Lovkesh Srivastava
           </p>
-          <div className="flex items-center gap-4">
-  <a
-    href="https://www.linkedin.com/in/lovkesh-srivastava-a11659b/"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="LinkedIn"
-    className="text-muted-foreground/30 hover:text-primary/70 transition-colors duration-300"
-  >
-    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-    </svg>
-  </a>
-
-  <a
-  href="https://www.instagram.com/journeywithlovkesh/"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="Instagram"
-  className="text-muted-foreground/30 hover:text-primary/70 transition-colors duration-300"
->
-  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-    <path d="M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm9.5 1a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/>
-  </svg>
-</a>
-</div>
+          
           <p className="text-xs tracking-widest text-muted-foreground/20 uppercase">
             Crafted by RS
           </p>
