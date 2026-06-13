@@ -581,23 +581,23 @@ export default function Home() {
             )}
         </motion.div>
 
-<div className="flex justify-center gap-6 pt-8">
+<div className="flex justify-center gap-8 pt-8">
   <a
     href="https://www.linkedin.com/in/lovkesh-srivastava-a11659b/"
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="LinkedIn"
-    className="text-muted-foreground/30 hover:text-primary/70 transition-colors duration-300"
+    className="text-primary/70 hover:text-primary transition-colors duration-300 uppercase tracking-widest text-xs"
   >
+    LinkedIn
   </a>
 
   <a
     href="https://www.instagram.com/journeywithlovkesh/"
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="Instagram"
-    className="text-muted-foreground/30 hover:text-primary/70 transition-colors duration-300"
+    className="text-primary/70 hover:text-primary transition-colors duration-300 uppercase tracking-widest text-xs"
   >
+    Instagram
   </a>
 </div>
 
